@@ -1,0 +1,11 @@
+.customers {
+padding: 120px 0;
+background-color: aqua;
+}
+.customer-title {
+font-size: 30px;
+color: black;
+}
+.customers-text {
+max-width: 800px;
+}
