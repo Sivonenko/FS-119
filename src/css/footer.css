@@ -1,21 +1,133 @@
 .footer {
-  padding: 20px 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
-.footer-desc {
-  text-align: center;
+
+.footer-wrapper {
+    display: flex;
+    margin-bottom: 16px;
 }
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.footer-logo-wrap {
+    margin-right: 146px;
+}
+
+.footer-stuff-wrap {
+    margin-right: auto;
+}
+
+.footer-form-wrap {
+    width: 325px;
+
+}
+
+.footer-resourse-wrap {
+    margin-right: 129px;
+}
+
+.footer-soc-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #edfffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #a5ebe3;
+}
+
+.footer-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    display: block;
+}
+
+
 .footer-link {
-  position: relative;
+    line-height: 2.1875;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #02897a;
+}
+
+.footer-title-form {
+    width: 280px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-form {}
+
+.footer-label {
+    position: relative;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.footer-input {
+    width: 325px;
+    height: 48px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: transparent;
+    padding-left: 42px;
+
+}
+
+.footer-input::placeholder {
+    line-height: 1.75;
+    color: #02897a;
+}
+
+.footer-form-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-form-btn {
+    border-radius: 4px;
+    width: 131px;
+    height: 39px;
+    background-color: #02897a;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+.footer-title-text {
+    line-height: 1.875;
+    text-align: center;
 }
